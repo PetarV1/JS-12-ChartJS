@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	max-width: 85%;
+	margin: 0 auto;
+ }
+
+.chart-wrapper {
+	display: flex;
+}
+
+ .chart-wrapper > * {
+	flex: 1;
+ }
